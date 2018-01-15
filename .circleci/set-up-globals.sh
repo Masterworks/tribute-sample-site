@@ -17,7 +17,7 @@ apt-get update
 composer global require -n "hirak/prestissimo:^0.3"
 
 # Install Terminus into ~/terminus
-/usr/bin/env COMPOSER_BIN_DIR=$HOME/bin composer --working-dir=$HOME require pantheon-systems/terminus "^1"
+/usr/bin/env COMPOSER_BIN_DIR=$HOME/bin composer --working-dir=$HOME require pantheon-systems/terminus "^1" symfony/process:^3
 
 #=====================================================================================================================
 # Start EXPORTing needed environment variables

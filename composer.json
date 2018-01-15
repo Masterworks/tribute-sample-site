@@ -33,7 +33,6 @@
     "squizlabs/php_codesniffer": "^2.9.0",
     "wp-coding-standards/wpcs": "dev-master",
     "phpunit/phpunit": "^6.1",
-    "symfony/process": "^3",
     "brain/monkey": "^1.4"
   },
   "config": {
