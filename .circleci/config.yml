@@ -75,27 +75,27 @@ jobs:
                 # Must be relative path from root
                 paths:
                     - vendor
+    # TO DO - Figure out *what* we want to code sniff and only point it at that
+    # code_sniff_unit_test:
+    #     <<: *defaults
+    #     steps:
+    #         - checkout
 
-    code_sniff_unit_test:
-        <<: *defaults
-        steps:
-            - checkout
+    #         - attach_workspace:
+    #             # Must be absolute path or relative path from working_directory
+    #             at: /tmp
 
-            - attach_workspace:
-                # Must be absolute path or relative path from working_directory
-                at: /tmp
+    #         - run:
+    #             name: copy vendor/web
+    #             command: cp -r /tmp/vendor .
 
-            - run:
-                name: copy vendor/web
-                command: cp -r /tmp/vendor .
-
-            - run:
-                name: check for WordPress coding standards
-                command: composer -n code-sniff
+    #         - run:
+    #             name: check for WordPress coding standards
+    #             command: composer -n code-sniff
             
-            - run:
-                name: run unit tests
-                command: composer -n unit-test
+    #         - run:
+    #             name: run unit tests
+    #             command: composer -n unit-test
 
     build_and_deploy:
         <<: *defaults

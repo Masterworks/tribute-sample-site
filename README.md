@@ -1,6 +1,6 @@
 # tribute-wp-deploy
 
-[![CircleCI](https://circleci.com/gh/Masterworks/tribute-wp-deploy.svg?style=shield)](https://circleci.com/gh/Masterworks/tribute-sample-site)
+[![CircleCI](https://circleci.com/gh/Masterworks/tribute-wp-deploy.svg?style=shield)](https://circleci.com/gh/Masterworks/tribute-wp-deploy)
 [![Dashboard tribute-wp-deploy](https://img.shields.io/badge/dashboard-tribute_wp_deploy-yellow.svg)](https://dashboard.pantheon.io/sites/024558ce-6d0b-436a-9b7d-eb0a8b4833ac#dev/code)
 [![Dev Site tribute-wp-deploy](https://img.shields.io/badge/site-tribute_wp_deploy-blue.svg)](http://dev-tribute-dp-deploy.pantheonsite.io/)
 
